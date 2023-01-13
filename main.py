@@ -5,7 +5,7 @@ import threading
 from dptoolsddos import botnet
 
 ips_src = []
-botnet_ips = botnet.get_ips_from("doppelgangerrtools.online/ddosips.html")
+botnet_ips = botnet.get_ips_from("HXXPS://YOURWEBSITE.ONLINE")
 for ip in botnet_ips:
     ips_src.append(ip)
 
